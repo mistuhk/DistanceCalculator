@@ -11,3 +11,5 @@
 /DistanceCalculator/DistanceCalculator.API/bin/Debug/net8.0
 /DistanceCalculator/DistanceCalculator.API.UnitTests/bin/Debug/net8.0/cs
 /DistanceCalculator/DistanceCalculator.API.UnitTests/bin/Debug/net8.0
+/DistanceCalculator/DistanceCalculator.API.EndpointGenerator/bin/Debug/netstandard2.0
+/DistanceCalculator/DistanceCalculator.API.EndpointGenerator/obj

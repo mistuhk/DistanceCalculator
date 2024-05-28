@@ -29,8 +29,8 @@ public class DistanceCalculatorEndpointTemplate : IEndpoint
             var unit = "km";
             var distance = distanceKm;
 
-            var locale = string.IsNullOrWhiteSpace(request.Locale) ? CultureInfo.CurrentCulture.Name : request.Locale;
-            if (string.Equals(locale, "en-GB", StringComparison.InvariantCultureIgnoreCase))
+            var locale = string.IsNullOrWhiteSpace(request.Locale.Trim()) ? CultureInfo.CurrentCulture.Name : request.Locale;
+            if (string.Equals(locale.Trim(), "en-GB", StringComparison.InvariantCultureIgnoreCase))
             {
                 distance = distanceKm * 0.621371; // Convert km to miles
                 unit = "miles";
@@ -55,8 +55,8 @@ public class DistanceCalculatorEndpointTemplate : IEndpoint
             var unit = "km";
             var distance = distanceKm;
 
-            var locale = string.IsNullOrWhiteSpace(request.Locale) ? CultureInfo.CurrentCulture.Name : request.Locale;
-            if (string.Equals(locale, "en-GB", StringComparison.InvariantCultureIgnoreCase))
+            var locale = string.IsNullOrWhiteSpace(request.Locale.Trim()) ? CultureInfo.CurrentCulture.Name : request.Locale;
+            if (string.Equals(locale.Trim(), "en-GB", StringComparison.InvariantCultureIgnoreCase))
             {
                 distance = distanceKm * 0.621371; // Convert km to miles
                 unit = "miles";

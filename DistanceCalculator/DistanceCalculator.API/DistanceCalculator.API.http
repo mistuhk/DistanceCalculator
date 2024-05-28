@@ -1,0 +1,121 @@
+@DistanceCalculator.API_HostAddress = http://localhost:5223
+
+### Calculate Distance using Spherical Method (Irish locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/spherical?locale=en-IE
+Content-Type: application/json
+
+{
+  "locale": "en-US",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Haversine Method (Irish locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/haversine?locale=en-IE
+Content-Type: application/json
+
+{
+  "locale": "en-US",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Pythagorean Method (Irish locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/pythagorean?locale=en-IE
+Content-Type: application/json
+
+{
+  "locale": "en-US",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Spherical Method (UK locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/spherical?locale=en-GB
+Content-Type: application/json
+
+{
+  "locale": "en-GB",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Haversine Method (UK locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/haversine?locale=en-GB
+Content-Type: application/json
+
+{
+  "locale": "en-GB",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Pythagorean Method (Irish locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/pythagorean?locale=en-GB
+Content-Type: application/json
+
+{
+  "locale": "en-US",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
