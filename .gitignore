@@ -8,3 +8,6 @@
 /DistanceCalculator/DistanceCalculator.API.IntegrationTests/obj
 /DistanceCalculator/DistanceCalculator.API.UnitTests/obj
 /DistanceCalculator/DistanceCalculator.API/DistanceCalculator.API.csproj.user
+/DistanceCalculator/DistanceCalculator.API/bin/Debug/net8.0
+/DistanceCalculator/DistanceCalculator.API.UnitTests/bin/Debug/net8.0/cs
+/DistanceCalculator/DistanceCalculator.API.UnitTests/bin/Debug/net8.0
