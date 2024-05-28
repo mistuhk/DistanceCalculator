@@ -5,7 +5,7 @@ POST {{DistanceCalculator.API_HostAddress}}/calculate/spherical
 Content-Type: application/json
 
 {
-  "locale": "en-US",
+  "locale": "en-IE",
   "coordinates": [
     {
       "latitude": 53.297975,
@@ -25,7 +25,7 @@ POST {{DistanceCalculator.API_HostAddress}}/calculate/haversine
 Content-Type: application/json
 
 {
-  "locale": "en-US",
+  "locale": "en-IE",
   "coordinates": [
     {
       "latitude": 53.297975,
@@ -45,7 +45,7 @@ POST {{DistanceCalculator.API_HostAddress}}/calculate/pythagorean
 Content-Type: application/json
 
 {
-  "locale": "en-US",
+  "locale": "en-IE",
   "coordinates": [
     {
       "latitude": 53.297975,
@@ -106,6 +106,66 @@ Content-Type: application/json
 
 {
   "locale": "en-GB",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Spherical Method (US locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/spherical
+Content-Type: application/json
+
+{
+  "locale": "en-US",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Haversine Method (US locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/haversine
+Content-Type: application/json
+
+{
+  "locale": "en-US",
+  "coordinates": [
+    {
+      "latitude": 53.297975,
+      "longitude": -6.372663
+    },
+    {
+      "latitude": 41.385101,
+      "longitude": -81.440440
+    }
+  ]
+}
+
+###
+
+### Calculate Distance using Pythagorean Method (US locale)
+POST {{DistanceCalculator.API_HostAddress}}/calculate/pythagorean
+Content-Type: application/json
+
+{
+  "locale": "en-US",
   "coordinates": [
     {
       "latitude": 53.297975,
