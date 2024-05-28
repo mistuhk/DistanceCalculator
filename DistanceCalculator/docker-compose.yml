@@ -1,0 +1,17 @@
+# Setup LAN.
+networks:
+  distance-calculator-network:
+    driver: bridge
+
+services:
+  # Configure API
+  distance-calculator:
+    image: distance-calculator
+    container_name: c-distance-calculator
+    ports:
+      - 5223:8080
+    build:
+      context: .
+      dockerfile: DistanceCalculator.API/Dockerfile
+    networks:
+      - distance-calculator-network

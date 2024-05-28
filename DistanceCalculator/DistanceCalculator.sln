@@ -5,11 +5,16 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanceCalculator.API", "DistanceCalculator.API\DistanceCalculator.API.csproj", "{73F57013-C3CB-49CB-AB82-7BC9C7F6B8D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.API.UnitTests", "DistanceCalculator.API.UnitTests\DistanceCalculator.API.UnitTests.csproj", "{9890906D-6F21-42AC-B895-986FEC31AD43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanceCalculator.API.UnitTests", "DistanceCalculator.API.UnitTests\DistanceCalculator.API.UnitTests.csproj", "{9890906D-6F21-42AC-B895-986FEC31AD43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.API.IntegrationTests", "DistanceCalculator.API.IntegrationTests\DistanceCalculator.API.IntegrationTests.csproj", "{CFE8D18F-2B91-4A18-A028-BC6F8CEDBFBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanceCalculator.API.IntegrationTests", "DistanceCalculator.API.IntegrationTests\DistanceCalculator.API.IntegrationTests.csproj", "{CFE8D18F-2B91-4A18-A028-BC6F8CEDBFBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.API.EndpointGenerator", "DistanceCalculator.API.EndpointGenerator\DistanceCalculator.API.EndpointGenerator.csproj", "{6A3E6F9E-997B-49D0-8F43-43DDB8644F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistanceCalculator.API.EndpointGenerator", "DistanceCalculator.API.EndpointGenerator\DistanceCalculator.API.EndpointGenerator.csproj", "{6A3E6F9E-997B-49D0-8F43-43DDB8644F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60C0ABB4-C059-4B53-BAC7-F34D4FE0CFDE}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
