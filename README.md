@@ -47,7 +47,8 @@ Execute **docker compose down** to remove the container and its dependent resour
 NOTE:
 In the DistanceCalculator.API, there's a **DistanceCalculator.API.EndpointGenerator.http** file that specifies a few integration tests that can be executed outside of the tests in the dedicated test projects.
 
-![image](https://github.com/mistuhk/DistanceCalculator/assets/5063063/98966104-165b-492f-90de-7ce3b0bf258e)
+![image](https://github.com/mistuhk/DistanceCalculator/assets/5063063/dd029178-b78b-499a-8b61-984bcdc84905)
+
 
 
 
